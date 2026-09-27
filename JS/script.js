@@ -216,3 +216,31 @@ mode.addEventListener("click", () => {
     console.log("The mode is", Currentmode);
 });
 
+// Classes and Objects
+let DATA = "Secret Information";
+class User {
+    constructor(name, email){
+       this.name = name;
+       this.email = email; 
+    }
+
+    viewData() {
+        console.log("Data = ", DATA);
+    }
+}
+
+class Admin extends User {
+    constructor(name, email) {
+        super(name, email);
+    }
+    editData () {
+      DATA = "The new updated";
+    }
+}
+
+let std1 = new User("Karki Dewa", "karkidewa@gmail.com");
+let std2 = new User("Hub Git", "github@gmail.com");
+let std3 = new User("Top Lap", "laptop@gmail.com");
+let std4 = new User("Board Key", "keyboard@gmail.com");
+
+let admin1 = new Admin("admin", "admin@gmail.com");
