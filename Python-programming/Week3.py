@@ -213,3 +213,48 @@ sec = total % 60
 
 print ( hours, " hrs", min, " min", sec, " sec")
 print (" Even : ", (total % 2) == 0 )
+
+
+
+# Program that ask for two number and print all seven arithmetic results
+nub1 = int(input("Enter any number      : "))
+nub2 = int(input("Enter another number  : "))
+
+print("Addition         : ", nub1 + nub2 )
+print("Subtraction      : ", nub2 - nub1 )
+print("Multiplication   : ", nub1 * nub2 )
+print("Division         : ", nub2 / nub1 )
+print("Floor Division   : ", nub2 // nub1 )
+print("Modulus          : ", nub2 % nub1 )
+print("Exponent         : ", nub1 ** nub2 )
+
+
+
+# Program that asks for price and quantity, applies discount and prints total
+price = float(input("Enter the price of Jhol Momo: "))
+quantity = int(input("Enter the quantity            : "))
+
+amount = price * quantity
+discount = amount * 0.1 
+
+print("The total amount after 10% discount is ", amount - discount)
+
+
+
+# Program that asks for an age and print true or false
+age = int(input("Enter your age: "))
+
+is_teenager = age <= 18
+
+print("The user is teenager: ", is_teenager)
+
+
+
+# Program that converts a number of days into weeks and leftover days
+number = int(input("Enter any number : "))
+
+weeks = number // 7
+days = number % 7
+
+print( number, "is exactly ", weeks, " weeks and ", days, "days" )
+
