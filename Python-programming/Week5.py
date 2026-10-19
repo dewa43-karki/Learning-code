@@ -178,3 +178,58 @@ for i in range(4, 5, 4):
         print("#" * i)
     print()
 
+
+
+# Program that print the times table for a number the user chooses, from 1-12
+print("Multiplication Table")
+print()
+
+num = int(input("Enter a number(1-12): "))
+print()
+
+print("Multiplication Table of", num)
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+
+
+# Program that ask for numbers until the user enters 0, then print the total, count and average
+print(" Enter numbers to add . Enter 0 to stop.")
+
+total = 0
+count = 0
+value = int(input("Enter a number: "))
+
+while value != 0:
+    count += 1
+    total += value
+    value = int(input("Enter a number: "))
+    if value == 0:
+        break
+
+print("The total sum of the entered numbers is:", total)
+print("The total count of the entered numbers is:", count)
+if count > 0:
+    print("The average of the entered numbers is:", total / count)
+
+
+
+# Program that ask for a number and print its factorial using a loop
+num = int(input("Enter a number: "))
+
+factorial = 1
+for i in range(1, num + 1):
+    factorial *= i
+
+print("The factorial of", num, "is", factorial)
+
+
+
+# Program that use nested loops to print a right-angled triangle of stars with a chosen number of rows
+rows = int(input("Enter the number of rows: "))
+
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
