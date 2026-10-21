@@ -286,3 +286,4 @@ nub3 = int(input("Enter 3rd score: "))
 greatest = num( nub1, nub2, nub3)
 print(f"The greatest score among them is {greatest}. ")
 
+
