@@ -143,3 +143,146 @@ def calculate_v2():
 
 answer = calculate_v2() 
 print("Outside function:", answer)
+
+
+
+# Program that print a right angle triangle of stars
+rows = int(input("How many rows? "))
+print()
+
+print("The different type of right angled triangle of star")
+print() 
+for i in range(1, rows + 1):       
+    for j in range(i):             
+        print("*", end="")         
+    print()     
+print()
+print()
+
+for i in range(1, rows + 1):
+    print(" " * (rows - i), end = "")
+    for j in range(i):
+        print("*", end = "")
+    print()
+
+
+
+# Program that print pyramif shaped stars
+rows = int(input("Enter numbers of rows: "))
+print()
+
+print("The pyramid shaped star pattern:")
+for i in range(1, rows + 1):
+    print(" " * (rows - i), end = "")
+    for j in range(( 2*i)-1 ):
+        print("*", end = "")
+    print()
+
+
+
+# Program that print a diamond shaped stars
+rows = int(input("Enter how many rows: "))
+print()
+
+print("A diamond shaped star pattern: ")
+for i in range (1, rows + 1):
+    print(" " * (rows - i), end = "")
+    for j in range ((2 * i) - 1):
+        print("*", end = "")
+    print()
+for i in range (rows - 1, 0, -1):
+    print(" " * (rows - i), end = "")
+    for j in range ((2 * i) - 1):
+        print("*", end = "")
+    print()
+
+
+
+# Program that print square and rectangle shaped stars
+rows = int(input("Enter how many rows: "))
+print()
+
+print("A square shaped star pattern: ")
+for i in range(rows):
+    for j in range(rows):
+        print("*", end = "")
+    print()
+
+print()
+
+# for a nrectangle
+rows = int(input("Enter the numbers of rows      : "))
+column = int(input("Enter the number of columns: "))
+print()
+
+print("A rectangle shaped star pattern: ")
+for i in range(rows):
+    for j in range(column):
+        print("*", end = "")
+    print()
+
+
+
+# Program that returns true or false for a given prime number
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for i in range(3, int(n ** 0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+
+print(is_prime(7))
+
+
+
+# Temperature converter made using at least two functions
+def temperature():
+    print("  Temperature Converter   ")
+
+def tem_conv(c):
+    f =  c * 9/5 + 32 
+    return f
+
+temperature()
+print()
+celsius = float(input("Enter the temperature in Celsius: "))
+fahrenheit = tem_conv(celsius)
+print(f"{celsius}°C = {fahrenheit}°F")
+
+
+
+# Rewriting week 4s' program using functions
+def number(n):
+    if n == 0:
+        return "Zero"
+    elif n > 0:
+        return "Positive"
+    else:
+        return "Negative"
+
+
+print(number(4))
+
+
+
+# Program of function that takes three scores and returns the highest.
+def num(a,b,c):
+    if a > b and a > c:
+        return a
+    elif b > a and b > c:
+        return b
+    else:
+        return c
+
+nub1 = int(input("Enter 1st score: "))
+nub2 = int(input("Enter 2nd score: "))
+nub3 = int(input("Enter 3rd score: "))
+
+greatest = num( nub1, nub2, nub3)
+print(f"The greatest score among them is {greatest}. ")
+
