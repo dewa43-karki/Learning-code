@@ -167,7 +167,7 @@ for i in range(1, rows + 1):
 
 
 
-# Program that print pyramif shaped stars
+# Program that print pyramid shaped stars
 rows = int(input("Enter numbers of rows: "))
 print()
 
@@ -286,4 +286,49 @@ nub3 = int(input("Enter 3rd score: "))
 greatest = num( nub1, nub2, nub3)
 print(f"The greatest score among them is {greatest}. ")
 
+
+
+# Prigramming to print a fibonacci series
+n = int(input("Enter how many terms you want in the Fibonacci series: "))
+
+a = 0
+b = 1
+
+print("Fibonacci Series:")
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+
+# There is another simpler way to do this
+for i in range(n):
+    print(a, end =" ")
+    temp = a   
+    a = b    
+    b = temp + b 
+
+
+
+#Program that print whether a number is prime or not using function
+def prime(n):
+    if n<=1:
+        return False
+    for i in range (2, n):
+        if n % i == 0:
+            return False 
+    else: 
+        return True
+        
+print(prime(9))
+
+
+
+#Program that tell whether a number is odd or even using function
+def oddEven(n):
+    if n % 2 == 0:
+        print(n, "is a even number.")
+    else:
+        print(n, "is a odd number.")
+
+
+oddEven(9)
 
