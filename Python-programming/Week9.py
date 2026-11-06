@@ -148,3 +148,51 @@ print("x is", x)
 
 
 
+# Practise program of analysing a list of marks
+marks = [78, 92, 65, 88, 71, 55, 94]
+
+count = 0
+for mark in marks:
+    if mark >= 70:
+        count += 1
+print(f"Number of students who passed: {count}")
+
+total = 0
+for mark in marks:
+    total += mark
+print("Total :", total, "Average :", round(total / len(marks), 2))
+
+print(f"Max marks: {max(marks)}, Min marks: {min(marks)}")
+
+for position,  mark in enumerate(marks, start = 1):
+    print(position, ".", mark)
+
+
+
+# Practise Program to build a marks manager
+marks = []
+
+def add_mark(marks_list, value):
+    marks_list.append(value)
+
+def show_status(marks_list):
+    if len(marks_list) == 0:
+        print("No marks yet.")
+        return
+    total = sum(marks_list)
+    print("Count :", len(marks_list), "Average :", round(total / len(marks_list), 2))
+    print("Highest :", max(marks_list), "Lowest :", min(marks_list))
+
+while True:
+    print("1 = Add     2 = Stats     3 = Exit")
+    choice = input("Choose: ")
+    if choice == "1" :
+       add_mark(marks, float(input("Mark : ")))
+    elif choice == "2":
+        show_status(marks)
+    elif choice == "3" :
+        print("ByeByeeeeee")
+        break
+
+
+
