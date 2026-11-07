@@ -1,52 +1,77 @@
-# Learning Web Development
+# Programming Journey
 
-A collection of web development practice projects and complete applications, organized by technology. Built while learning core web development concepts from the ground up.
+A collection of my coding practices, experiments, and projects as I explore the world of programming.
 
-## Repository Structure
+This repository is where I document my learning journey — from understanding the fundamentals of individual programming languages to combining them to build functional projects.
 
-Learning-web-development/
-├── HTML/ # HTML fundamentals and practice
-├── CSS/ # CSS styling and layout practice along with project
-                                                         ├─────── [Amazon Clone](https://dewa43-karki.github.io/Learning-web-development/CSS/Projects/P1/index.html)
-                                                         ├─────── [Pinterest Clone](https://dewa43-karki.github.io/Learning-web-development/CSS/Projects/P2/index.html)
-├── JS/ # JavaScript fundamentals and practice
-├── Projects/ # Complete projects combining multiple technologies
-       └── README.md
+Currently exploring Python and web development, with plenty more to learn along the way.
 
-## Folders Overview
+## 📂 Repository Structure
 
-### HTML/
+```text
+Learning-code/
+│
+├── Python/
+│   └── Basic Python concepts and practice
+│
+└── Web-Development/
+    │
+    ├── HTML/
+    │   └── HTML fundamentals and practice
+    │
+    ├── CSS/
+    │   ├── Styling, layouts, and responsive design
+    │   └── Projects/
+    │       ├── [Amazon Clone](https://dewa43-karki.github.io/Learning-code/Web-development/CSS/Projects/P1/index.html)
+    │       └── [Pinterest Clone](https://dewa43-karki.github.io/Learning-code/Web-development//CSS/Projects/P2/index.html)
+    │
+    ├── JS/
+    │   └── JavaScript fundamentals and practice
+    │
+    └── Projects/
+        └── Projects combining all that i have learned in Web-development
+            ├── [Tic-Tac-Tok](https://dewa43-karki.github.io/Learning-code/Web-development//Projects/Tic-Tac-Tok/index.html)
+            ├── [Rock-Paper-Scissor](https://dewa43-karki.github.io/Learning-code/Web-development//Projects/Rock-Paper-Scissor/index.html)
+        
 
-Practice projects focused on HTML fundamentals and structure.
+```
 
-### CSS/
+*Note: The structure above is an overview and may evolve as I add more languages, concepts, and projects.*
 
-Practice projects focused on CSS styling, layouts, and responsive design.
+## 📚 What's Inside?
 
-### JS/
+### 🐍 Python/
 
-Practice projects focused on JavaScript fundamentals, DOM manipulation, event handling, and API integration.
+My journey into Python programming, starting with the basics and gradually exploring more advanced concepts.
 
-### Projects/
+### 🌐 Web-Development/
 
-Full-stack practice projects combining 2 or more technologies. Each project demonstrates practical application of learned concepts.
-[Tic-Tac-Tok project](https://dewa43-karki.github.io/Learning-web-development/Projects/Tic-Tac-Tok/index.html)
+My collection of web development practices and projects, organized by individual technologies.
 
-## Technologies Used
+- **HTML/** – Markup, document structure, and semantic HTML.
+- **CSS/** – Styling, layouts, responsive design, and standalone projects.
+- **JS/** – JavaScript fundamentals, DOM manipulation, event handling, and API integration.
+- **Projects/** – Projects combining HTML, CSS, and JavaScript.
 
-- **HTML5** – Semantic markup and structure
-- **CSS3** – Styling and responsive design
-- **JavaScript** – Interactivity, logic, and DOM manipulation
-- **APIs** – Working with external data
+Some of my earlier CSS projects were built before I started learning JavaScript, so they focus entirely on HTML and CSS.
 
-## Learning Goals
+## 🛠️ Technologies
 
-Through these projects, I'm practicing:
+- **Python** – Learning programming fundamentals and problem-solving.
+- **HTML5** – Semantic markup and webpage structure.
+- **CSS3** – Styling, layouts, and responsive design.
+- **JavaScript** – Interactivity, logic, and DOM manipulation.
+- **APIs** – Exploring how applications communicate with external services.
 
-- Core web fundamentals
-- Problem-solving and debugging
-- Building complete, functional applications
-- Writing clean, organized code
-- Combining technologies to create working projects
+## 🎯 What I'm Working Towards
+
+Through this repository, I'm trying to:
+
+- Understand programming fundamentals rather than just memorize syntax.
+- Improve my problem-solving and debugging skills.
+- Learn languages independently before combining them.
+- Build functional projects using what I've learned.
+- Write cleaner, more organized, and maintainable code.
+- Become more independent as a developer.
 
 Learning by building. Updated as I progress.
