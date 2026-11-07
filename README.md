@@ -30,8 +30,8 @@ Learning-code/
     │
     └── Projects/
         └── Projects combining all that i have learned in Web-development
-            ├── [Tic-Tac-Tok](https://dewa43-karki.github.io/Learning-code/Web-development//Projects/Tic-Tac-Tok/index.html)
-            ├── [Rock-Paper-Scissor](https://dewa43-karki.github.io/Learning-code/Web-development//Projects/Rock-Paper-Scissor/index.html)
+            ├── Tic-Tac-Tok
+            ├── Rock-Paper-Scissor
         
 
 ```
