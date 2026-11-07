@@ -196,3 +196,51 @@ while True:
 
 
 
+# Program that list 10 numbers and prints only even ones
+num = [00, 11, 22, 33, 44, 55, 66, 77, 88, 99]
+
+for even in num:
+    if even % 2 == 0:
+        print("Even : ", even)
+
+
+
+# Program that ask user for their name, store them in list and print them numbered.
+names = []
+
+for i in range(5):
+    name_input= input("Enter you name: ")
+    names.append(name_input)
+
+for i, names in enumerate(names, start = 1):
+        print(i, names)
+
+
+
+# Program where a function takes a list and returns the average
+def avg(nub):
+    num = nub
+    total = 0
+    for number in num:
+        total += number
+    
+    average = round((total / len(num)), 2)
+    return average
+
+
+list = [22, 44, 66, 88]
+print(avg(list))
+
+
+
+# Program where a function takes a list and returns a new list with duplicates removed
+def list_duplicate(dup_rev):
+    unique_list = []
+    for item in dup_rev:
+        if item not in unique_list:
+            unique_list.append(item)
+    return unique_list
+
+duplicates = [22, 33, 44, 55, 66, 22]
+print(list_duplicate(duplicates))
+
