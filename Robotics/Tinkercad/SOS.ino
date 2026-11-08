@@ -1,4 +1,4 @@
-// S0S signal in Morse code
+// S0S signal in Morse code using Arduino
 
 const int ledPin1 = 13; 
 const int ledPin2 = 4;
@@ -46,3 +46,4 @@ void loop() {
   
   delay(3000); 
 }
+
