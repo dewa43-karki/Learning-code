@@ -22,8 +22,8 @@ Learning-code/
     ├── CSS/
     │   ├── Styling, layouts, and responsive design
     │   └── Projects/
-    │       ├── [Amazon Clone](https://dewa43-karki.github.io/Learning-code/Web-development/CSS/Projects/P1/index.html)
-    │       └── [Pinterest Clone](https://dewa43-karki.github.io/Learning-code/Web-development//CSS/Projects/P2/index.html)
+    │       ├── Amazon Clone
+    │       └── Pinterest Clone
     │
     ├── JS/
     │   └── JavaScript fundamentals and practice
