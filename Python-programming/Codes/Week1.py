@@ -1,4 +1,5 @@
-#First program in python
+# The first code writing in Python! 
+
 print("Name: Karki Dewa")
 print("Department:Smart Computing")
 print("Favourite subject: Computer")
